@@ -1,14 +1,8 @@
-import { useParams } from "react-router-dom"
-
 export default function MovieDetailPage(){
-
-    const { id } = useParams()
-
     return(
         <>
-            <h1>Movie Detail Page</h1>
-            <p>O ID do filme é: {id}</p>
-            {/* Exibe detalhes de um filme específico. */}
+        <h1>Movie Detail Page</h1>
+        {/* Exibe detalhes de um filme específico. */}
         </>
     )
 }
