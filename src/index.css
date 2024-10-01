@@ -5,3 +5,9 @@
 .active{
   border-bottom: 2px solid black;
 }
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
